@@ -1,0 +1,5 @@
+{
+  "description": "An avatar service provided by Gravatar to display profile photo by email address.",
+  "license": "GPL-3.0-or-later",
+  "name": "mecha-cms/x.gravatar"
+}
