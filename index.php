@@ -1,6 +1,9 @@
 <?php namespace x;
 
 function gravatar($avatar, array $lot = []) {
+    if ($avatar) {
+        return $avatar;
+    }
     $size = \array_shift($lot) ?: 80;
     return 'https://www.gravatar.com/avatar/' . \md5($this['email'] ?? "") . '?s=' . $size . '&d=mp';
 }
