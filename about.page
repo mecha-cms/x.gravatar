@@ -2,11 +2,15 @@
 title: Gravatar
 description: An avatar service provided by [Gravatar](https://en.gravatar.com) to display profile photo by email address.
 icon: 'M12 0C10.6758 0 9.6016 1.0273 9.6016 2.3008L9.6016 10.3516C9.6016 11.6211 10.6758 12.6484 12 12.6484 13.3242 12.6484 14.3984 11.6211 14.3984 10.3516L14.3984 4.9922C17.1953 5.9414 19.1992 8.4961 19.1992 11.5 19.1992 15.3086 15.9766 18.3984 12 18.3984 8.0234 18.3984 4.8008 15.3086 4.8008 11.5 4.8008 9.5938 5.6055 7.8672 6.9102 6.6211 7.8477 5.7227 7.8477 4.2656 6.9102 3.3672 5.9727 2.4688 4.4531 2.4688 3.5156 3.3672 1.3438 5.4492 0 8.3242 0 11.5 0 17.8516 5.3711 23 12 23 18.6289 23 24 17.8516 24 11.5 24 5.1484 18.6289 0 12 0Z'
+color: '#285b97'
 author: Taufik Nurrohman
 link: 'https://en.gravatar.com'
 type: Markdown
 version: 1.0.0
 ...
+
+This extension is an expansion of the [Avatar](https://github.com/mecha-cms/x.avatar) extension to provide profile photo
+from the [Gravatar](https://en.gravatar.com) service.
 
 ### Usage
 
