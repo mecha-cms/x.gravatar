@@ -14,6 +14,6 @@ from the [Gravatar](https://en.gravatar.com) service.
 
 ### Usage
 
-~~~ .php
+~~~ .html.php
 <img alt="" src="<?= $page->avatar(80); ?>">
 ~~~
