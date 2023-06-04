@@ -1,6 +1,6 @@
-<?php namespace x\gravatar\page;
+<?php namespace x\gravatar;
 
-function avatar($avatar, array $lot = []) {
+function page__avatar($avatar, array $lot = []) {
     if ($avatar) {
         return $avatar;
     }
@@ -8,4 +8,4 @@ function avatar($avatar, array $lot = []) {
     return 'https://www.gravatar.com/avatar/' . \md5($this['email'] ?? "") . '?s=' . $size . '&d=mp';
 }
 
-\Hook::set('page.avatar', __NAMESPACE__ . "\\avatar", 1);
+\Hook::set('page.avatar', __NAMESPACE__ . "\\page__avatar", 1);
