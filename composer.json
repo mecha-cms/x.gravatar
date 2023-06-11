@@ -1,5 +1,8 @@
 {
-  "description": "An avatar service provided by Gravatar to display profile photo by email address.",
+  "description": "An avatar service provided by Gravatar to display a profile photo by email address.",
   "license": "GPL-3.0-or-later",
-  "name": "mecha-cms/x.gravatar"
+  "name": "mecha-cms/x.gravatar",
+  "require": {
+    "mecha-cms/x.avatar": "^1.0.0"
+  }
 }
