@@ -6,7 +6,7 @@ color: '#285b97'
 author: Taufik Nurrohman
 link: 'https://en.gravatar.com'
 type: Markdown
-version: 1.0.0
+version: 1.0.1
 ...
 
 This extension is an expansion of the [Avatar](https://github.com/mecha-cms/x.avatar) extension to provide a profile
